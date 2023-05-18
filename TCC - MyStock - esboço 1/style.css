@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #bbef95;
+    cursor: default;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "main main "
+    "footer footer";
+    grid-template-rows: 80px 1fr 80px;
+    grid-template-columns: 70vh 1fr;
+   
+}
+
+header{
+    grid-area: header;
+    background-color: #007cd1;
+    display: flex;
+    justify-content: center;
+   align-items: center; 
+
+    
+;   
+}
+.login-page{
+    display: flex;
+    height: 50%;
+    margin-left: 5% ;
+    
+    justify-content: space-between;
+    width: 100%
+    
+}
+.login-conteiner{
+    display: flex;
+    width: 20%;
+    border: solid 3px;
+    align-items: center;
+    border: solid black 1px;
+    justify-content: space-evenly;
+    margin-right: 3%;
+
+}
+main{
+    grid-area: main;
+    display: flex;
+    background-color: #00bcaa;
+    align-items: center;
+    border: solid black 2px;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.conteiner-main{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    border: solid black 2px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.servicos{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    border: solid black 2px;
+}
+
+.conteiner-dados{
+    display: flex;
+    width: 100%;
+    height: 25%;
+    border: solid black 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.logo{
+    display: flex;
+    width: 70px;
+    height: 100px; 
+}
+
+
+
+
+
+
+
+.img{
+    width: 30%;
+    height: 35%;  
+    border-radius: 30px;     
+}
+
+
+footer{
+    
+    grid-area: footer;
+    background-color: #60e0a1;
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+footer :nth-child(1){
+    padding-right: 5%;
+}
+
+
+li:active {
+    border: 3px solid blue;
+    
+}
